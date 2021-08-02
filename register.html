@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/nav&footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register-login.css">
+	</head>
+	<body>
+		<!--navigation starts here-->
+        <div class="navbar navbar-default navbar-fixed-top header">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navcollapse">
+                        <!--collapse the menu,data-toggle is used to collapse the menu
+                                data-target: what elements to be collapsed,its value is the id of the element
+                        -->
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--the logo-->
+                    <a href="#">
+                        <div class="logo">
+                        	SmartySkills
+                        </div>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navcollapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">Course
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu course">
+                                <li><a href="">HTML5</a></li>
+								<li class="divider"></li>
+		                        <li><a href="">JUnit</a></li>
+		                        <li class="divider"></li>
+		                        <li><a href="">UML</a></li>
+		                        <li class="divider"></li>
+		                        <li><a href="">Linux</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle menubtn" data-toggle="dropdown">Test
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu course">
+                                <li><a href="">Online skill test</a></li>
+                                <li class="divider"></li>
+                                <li><a href="">Practice quiz</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="btns navbar-right">
+                        <a href="" class="btn btn-default navbar-btn login">
+                            <span class="glyphicon glyphicon-log-in btnicon"></span>Login</a>
+                        <a href="" class="btn btn-default navbar-btn register">
+                            <span class="glyphicon glyphicon-user btnicon"></span>Register</a>
+                    </div>
+                    <form class="navbar-form navbar-right" action="" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control search" name="search" placeholder="search course" />
+                        </div>
+                        <!--<input type="submit" value="Submit"/>-->
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--navigation ends here-->
+		<div id="box"></div>
+	<div class="cent-box register-box">
+		<div class="cent-box-header">
+			<h1 class="main-title hide">DEFEND</h1>
+			<h2 class="sub-title">smart skill</h2>
+		</div>
+
+		<div class="cont-main clearfix">
+			<div class="index-tab">
+				<div class="index-slide-nav">
+					<a href="login.html">Login</a>
+					<a href="register.html" class="active">Register</a>
+					<div class="slide-bar slide-bar1"></div>				
+				</div>
+			</div>
+                    <form action="register.php" method="post">
+			<div class="login form">
+				<div class="group">
+					<div class="group-ipt user">
+						<input type="text" name="username" id="username" class="ipt" placeholder="username" required>
+					</div>
+                                        <div class="group-ipt password">
+						<input type="text" name="rollnumber" id="rollnumber" class="ipt" placeholder="rollnumber" required>
+					</div>
+                                        <div class="group-ipt password">
+						<input type="email" name="email" id="email" class="ipt" placeholder="email" required>
+					</div>
+					<div class="group-ipt password">
+						<input type="password" name="userpass" id="password" class="ipt" placeholder="userpass" required>
+					</div>
+                                        <div class="group-ipt password">
+						<input type="password" name="confirm" id="password" class="ipt" placeholder="Password" required>
+					</div>
+                                    <div class="group-ipt password" style="background-color: lightgrey">
+						<!--<input type=""  class="ipt" placeholder="role" required>-->
+                                                <select style="color: black" class="col-xs-12" name="role" id="role">
+                                                    <option value="admin">administrator</option>
+                                                    <option value="student">student</option>
+                                                </select>
+					</div>
+                                    
+				</div>
+			</div>
+
+			<div class="button">
+                            <button type="submit" class="login-btn register-btn" name="button" id="button" value="Register">Register</button>
+			</div>
+                    </form>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>smart skill</p>
+	</div>
+
+	<script src='js/particles.js' type="text/javascript"></script>
+	<script src='js/background1.js' type="text/javascript"></script>
+	<script src='js/jquery.min.js' type="text/javascript"></script>
+	<script src='js/layer/layer.js' type="text/javascript"></script>
+	<script>
+		$(".login-btn").click(function(){
+			var email = $("#email").val();
+			var password = $("#password").val();
+		})
+		$("#remember-me").click(function(){
+			var n = document.getElementById("remember-me").checked;
+			if(n){
+				$(".zt").show();
+			}else{
+				$(".zt").hide();
+			}
+		})
+	</script>
+	<script type="text/javascript" src="js\jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+	
+		$(document).ready(function(){
+			$("#button").click(function(){
+				var id = $("#user").val();
+				var password = $("#password").val();
+
+				localStorage.setItem(id,password);
+				alert("Success");
+			});
+		});
+	</script>
+		
+
+	
+
+        
+        <!--footer starts here-->
+        <footer class="footer navbar-fixed-bottom" id="footer">
+            	<div class="footerdetails">
+            		<div class="container">
+            			<div class="row">
+            				<div class="col-lg-8">
+            					<h3>About Us</h3>
+            					<p>
+            						Smarty Skills is a newly launched online web site that offers Practice 
+            						and Online Skill test to its users. It also plan to offer a Cross platform 
+            						web application to its users across devices and platform.
+            					</p>
+            				</div>
+            				<div class="col-lg-4">
+            					<h3>Contact Us</h3>
+            					<div class="contactdetails">
+            						<ul class="contacts-info-list text-left">
+											<li>
+												<span class="glyphicon glyphicon-map-marker"></span>
+												<span class="info-item">
+													&nbsp;Ningxia Road 308, Qingdao University
+												</span>
+											</li>
+											<li>
+												<span class="glyphicon glyphicon-phone-alt"></span>
+												<span class="info-item">
+													&nbsp;Telephone: +15653205695<br>
+													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax: +15653205695
+
+												</span>
+											</li>
+											<li>
+												<span class="glyphicon glyphicon-envelope"></span>
+												<span class="info-item">
+													&nbsp;<a href="mailto:info@omg.org">937721540@qq.com</a>
+												</span>
+											</li>
+										</ul>
+            					</div>
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            	<div class="footercopyright">
+            		<div class="container">
+            			<div class="row">
+							<div class="col-lg-12 text-center">
+								Copyright © 2018 <a href="#">The Warriors</a> &nbsp;| &nbsp;All Rights Reserved
+							</div>
+            			</div>
+            		</div>
+            	</div>
+            </footer>
+	</body>
+	<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+</html>

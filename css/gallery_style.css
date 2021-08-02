@@ -1,0 +1,57 @@
+body
+{
+    min-height: 1000px;
+    padding-top: 70px;
+    
+}
+.navbar-default
+{
+    border: none;
+    color: white;
+    background: black;
+    
+}
+.navbar .nav >li>a
+{
+    color: #fff;
+    text-shadow: none;
+    
+}
+.navbar .nav >li>a:hover
+{
+    color: #666;
+    background: none;
+}
+.navbar .nav .active > a:hover
+{
+    background: none;
+}
+img
+{
+    filter: gray;
+    -webkit-filter: grayscale(1);/*0代表灰色，1代表彩色图片*/
+}
+img:hover
+{
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+@media screen and (max-width:480px)
+{
+    html{
+        -webkit-text-size-adjust: none;
+    }
+    #hh
+    {
+        font-size: 2em;
+        color: maroon;
+    }
+    #ll
+    {
+        color: yellow;
+    }
+    
+}
+
+
+

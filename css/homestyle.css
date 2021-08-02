@@ -1,0 +1,494 @@
+@font-face {
+	font-family: fonts;
+	src: url(../fonts/kaushanScript-Regular.otf);
+}
+/*css style of the navbar starts here*/
+.header
+{
+    /*font-size: 23px;*/
+    background: #5f5f5f;
+}
+.logo
+{
+	font-family: fonts;
+	font-size: 2.4em;
+}
+.course
+{
+    background: #5f5f5f;
+}
+.nav>li:hover .dropdown-menu
+{
+	display: block;
+}
+.nav>li>a:active
+{
+	background: #404040;
+}
+.nav>li a:hover {
+    background-color: #404040;
+}
+/*.header .search,.btns a
+{
+    font-size: 23px;
+}*/
+/*.header .search
+{
+    height: 46px;
+}*/
+.btns
+{
+    margin-left: 20px;
+}
+.btnicon
+{
+    padding-right: 5px;
+}
+.login
+{
+    background: #5E5E5E;
+    color: white;
+}
+.register
+{
+    color: #777777;
+}
+#navcollapse>ul a
+{
+    color: #F3F3F3;
+}
+/*css style of the navbar ends here*/
+
+/*css style of the container starts here*/
+body
+{
+    background: lightgrey;
+}
+/*		.mycontainer
+                {
+                        margin: 0 auto;
+                }*/
+/*轮播图*/
+.firstrow
+{
+    margin-top: 94px;
+}
+
+.img-box1
+{
+	background: url(../img/pic1.jpg);
+}
+.img-box2
+{
+	background: url(../img/pic2.jpg);
+}
+
+.img-box3
+{
+	background: url(../img/pic5.jpg);
+}
+.img-box4
+{
+	background: url(../img/pic6.jpg);
+}
+.img-box
+{
+	background-size: 100% 100%;
+	height: 500px;
+}
+.innerrow
+{
+	padding: 5% 0;
+}
+
+/*未响应*/
+.banner
+{
+	opacity: 0.6;
+	background: black;
+	position: absolute;
+	top: 18%;
+	right: 0;
+	left: 0;
+	height: 65%;
+}
+.innerrow .divider {
+	width: 77px;
+  	height: 2px;
+  	min-width: 37px;
+  	position: absolute;
+  	top: 44%;
+  	border: 1px solid white;
+  	opacity: 0.3;
+}
+.innerrow .left
+{
+	left: 35%;
+}
+.innerrow .right
+{
+	right: 35%;
+}
+.coursename
+{
+	font-family: fonts;
+	color: white;
+	font-size: 4em;
+	position: absolute;
+	top: 36%;
+	left: 43%;
+}
+.etbtn
+{
+	font-size: 1.3em;
+	width: 20%;
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	background-color: #428bca;
+	font-size: 1.6em;
+	color: white;
+}
+.btnarrow
+{
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	bottom: 15px;
+}
+
+.leftarrow
+{
+	right: 30px;
+	margin-right: 20px;
+}
+/*.leftarrow .lefticon
+{
+	margin-left: -8px;
+}
+.rightarrow .righticon
+{
+	margin-right: -7px;
+}*/
+.leftarrow .lefticon,.rightarrow .righticon
+{
+	font-size: 20px;
+	line-height: 0;
+	margin-top: 0;
+}
+.rightarrow
+{
+	right: 10px;
+}
+.btnarrow a
+{
+	background: black;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	color: white;
+	opacity: 0.6;
+	visibility: hidden;
+	font-size: 1em;
+}
+.row:hover .btnarrow a
+{
+	visibility: visible;
+}
+/*large devices*/
+@media (min-width: 1200px) {
+  .innerrow .divider {
+    top: 45%;
+    min-width: 77px;
+    max-width: 77px;
+  }
+}
+/*medium devices*/
+@media (min-width: 960px) and (max-width: 1200px){
+	.banner
+	{
+		top: 15%;
+	}
+	.img-box
+	{
+		background-size: 100% 100%;
+		height: 400px;
+	}
+	.firstrow
+	{
+	    margin-top: 80px;
+	}
+  .innerrow .divider {
+    top: 42%;
+    min-width: 37px;
+    max-width: 37px;
+  }
+  .coursename
+	{
+		font-family: fonts;
+		color: white;
+		font-size: 3em;
+		position: absolute;
+		top: 34%;
+		left: 42%;
+	}
+	.etbtn
+	{
+		font-size: 1.3em;
+		width: 19%;
+		position: absolute;
+		top: 55%;
+		left: 40%;
+		background-color: #428bca;
+		color: white;
+	}
+}
+/*small devices*/
+@media (min-width: 768px) and (max-width: 960px) {
+	.banner
+	{
+		top: 15%;
+	}
+	.img-box
+	{
+		background-size: 100% 100%;
+		height: 350px;
+	}
+  .innerrow .divider {
+    top: 42%;
+    min-width: 37px;
+    max-width: 37px;
+  }
+  .innerrow .left
+	{
+		left: 35%;
+	}
+	.innerrow .right
+	{
+		right: 35%;
+	}
+	.coursename
+	{
+		font-family: fonts;
+		color: white;
+		font-size: 3em;
+		position: absolute;
+		top: 33%;
+		left: 42%;
+	}
+	.etbtn
+	{
+		font-size: 1em;
+		width: 21%;
+		position: absolute;
+		top: 55%;
+		left: 40%;
+		background-color: #428bca;
+		color: white;
+	}
+	.lefticon
+	{
+		line-height: 0;
+		margin-left: -8px;
+	}
+	.firstrow
+	{
+	    margin-top: 100px;
+	}
+	.leftarrow
+	{
+		right: 20px;
+		margin-right: 20px;
+	}
+	.btnarrow
+	{
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		bottom: 20px;
+	}
+	.leftarrow .lefticon
+	{
+		line-height: 2;
+		margin-left: -15px;
+	}
+	.rightarrow .righticon
+	{
+		line-height: 2;
+		margin-right: -15px;
+	}
+}
+/*extra small devices*/
+@media (max-width: 768px) {
+	.banner
+	{
+		top: 15%;
+	}
+	.img-box
+	{
+		background-size: 100% 100%;
+		height: 200px;
+	}
+	.innerrow .divider {
+		display: none;
+	}
+  .coursename
+	{
+		font-family: fonts;
+		color: white;
+		font-size: 3em;
+		position: absolute;
+		top: 20%;
+		left: 41%;
+	}
+	.etbtn
+	{
+		font-size: 1em;
+		width: 22%;
+		position: absolute;
+		top: 55%;
+		left: 40%;
+		background-color: #428bca;
+		color: white;
+	}
+	.firstrow
+	{
+	    margin-top: 70px;
+	}
+	.leftarrow
+	{
+		right: 20px;
+		margin-right: 20px;
+	}
+		.btnarrow
+	{
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		bottom: 7px;
+	}
+	.leftarrow .lefticon
+{
+	line-height: 0;
+	margin-left: -8px;
+}
+.rightarrow .righticon
+{
+	line-height: 0;
+	margin-right: -7px;
+}
+
+	}
+	@media screen and (max-width: 500px) {
+		.etbtn
+		{
+			font-size: 0.9em;
+			width: 110px;
+			left: 35%;
+		}
+		.coursename
+		{
+			left: 35%;
+		}
+	}
+
+
+/*the buttons controlling the carousel*/
+.controlbtns input
+{
+    border: 1px solid lightblue;
+    font-size: 1.6em;
+}
+.controlbtns input:focus
+{
+	outline: none;
+	background: #828282;
+	color: white;
+}
+.secondrow
+{
+    margin-top: 20px;
+}
+#mytab1>ul>li>a
+{
+    color: #333;
+}
+#mytab1>ul>li>a:hover
+{
+    background: white;
+}
+.tab-content
+{
+    padding-top: 10px;
+}
+.thumbnail .pimg
+{
+    width: 176px;
+    border-radius: 50%;
+}
+/*注册表单*/
+.thirdrow
+{
+	margin-top: 20px;
+}
+.registerform
+{
+    background: lightgrey;
+    border: 1px dotted #808080;
+    padding-top: 18px;
+}
+
+.registerform input
+{
+    font-size: 1.45em;
+    height: 50px;
+}
+#remember,#role1,#role2
+{
+    zoom: 166%;
+    height: 12px;
+}
+.rolename
+{
+    font-size: 22px;
+    color: #383838;
+}
+.subbtn
+{
+    color: white;
+    background: #828282;
+}
+
+/*footer*/
+.footerdetails
+{
+	background: #2F2F2F;
+	color: #a3a3a3;
+}
+.contactdetails .contacts-info-list
+{
+	list-style: none;
+	padding-left: 0;
+}
+.footer .footercopyright
+{
+	background: #191919;
+	color: #A3A3A3;
+}
+
+/*                .inner{
+                    width: 100%;
+                    margin: 0 auto;
+                }*/
+/*.clear:after
+{
+        display: block;
+        visibility: hidden;
+        clear: both;
+        height: 0;
+        content: "";
+}
+.clear
+{
+        zoom: 1;
+}*/

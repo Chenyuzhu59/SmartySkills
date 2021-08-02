@@ -1,0 +1,18 @@
+.mycontainer .firstrow
+{
+    margin-top: 94px;
+}
+.userimg
+{
+    background: url(img/person-homepage.jpg);
+}
+.userimg>a>img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.users>a
+{
+    color: red;
+}

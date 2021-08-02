@@ -1,0 +1,82 @@
+@font-face {
+	font-family: fonts;
+	src: url(../fonts/kaushanScript-Regular.otf);
+}
+body
+{
+	background: lightgrey;
+}
+
+/*css style of the navbar starts here*/
+.header
+{
+    /*font-size: 23px;*/
+    background: #5f5f5f;
+}
+.logo
+{
+	font-family: fonts;
+	font-size: 2.4em;
+}
+.course
+{
+    background: #5f5f5f;
+}
+.nav>li:hover .dropdown-menu
+{
+	display: block;
+}
+.nav>li>a:active
+{
+	background: #404040;
+}
+.nav>li a:hover {
+    background-color: #404040;
+}
+/*.header .search,.btns a
+{
+    font-size: 23px;
+}*/
+/*.header .search
+{
+    height: 46px;
+}*/
+.btns
+{
+    margin-left: 20px;
+}
+.btnicon
+{
+    padding-right: 5px;
+}
+.login
+{
+    background: #5E5E5E;
+    color: white;
+}
+.register
+{
+    color: #777777;
+}
+#navcollapse>ul a
+{
+    color: #F3F3F3;
+}
+/*css style of the navbar ends here*/
+
+/*footer*/
+.footerdetails
+{
+	background: #2F2F2F;
+	color: #a3a3a3;
+}
+.contactdetails .contacts-info-list
+{
+	list-style: none;
+	padding-left: 0;
+}
+.footer .footercopyright
+{
+	background: #191919;
+	color: #A3A3A3;
+}
