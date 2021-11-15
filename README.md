@@ -298,4 +298,4 @@ c. error.log: The warning and error messages.
 Any problem please contact Parallel-Meta Suite development team
 
 	Chen Yuzhu	E-mail: chenyuzhu_study@163.com
-	Li Jian	E-mail: rendcloud@163.com
+	Li Jian		E-mail: rendcloud@163.com
