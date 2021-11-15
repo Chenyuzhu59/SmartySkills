@@ -148,13 +148,13 @@ Usually, servers need remote login (e.g. via SSH) and only provide command-based
 
 a. Download GUI configuration guild folder ($ParallelMETA/PMS-Config/) from the remote server, and open **"index.html"** in the folder by a web browser
 
-b. Generate the command in the local computer as well as [local GUI configure](####local-gui-configure)
+b. Generate the command in the local computer as well as [local GUI configure](#local-gui-configuration)
 
 #### Remote Run
 a. Paste and run the command in the terminal of remote server.
 
 #### Local GUI View (for servers)
-The results can also be transfer to the local computer for browsing as well as [local GUI view](####local-gui-view).
+The results can also be transfer to the local computer for browsing as well as [local GUI view](#local-gui-view).
 
 ## Command-based configuration and run (Fig. 1 C)
 PMS also support command-based operations for non-GUI conditions, or experienced users. It is available via terminal either locally or remotely. Please run
