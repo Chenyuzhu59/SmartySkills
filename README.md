@@ -103,8 +103,9 @@ e. Compile the source code:
 # Typical Usages
 PMS provides a pipeline to automatically process the whole workflow.
 
-![usage.png](https://i.loli.net/2021/11/12/AX4E3Hjzeg5crCp.png)
-<center>Fig. 1. Three typical usages of PMS for different scenarios and platforms. (A) Local GUI configure and run. (B) Local GUI configure and remote run. (C) Command configure and run (for both locally and remotely).</center>
+![usages.png](https://i.loli.net/2021/11/15/r5AuiXPtJIW6ULd.png)
+
+<center>Fig. 1. Three typical usages of PMS for different scenarios and platforms. (A) Local GUI configure and run. (B) Local GUI configure and remote run. (C) Command configure and run (for both locally and remotely). </center>
 
 
 ## GUI-based configuration and run in a local computer (Fig. 1 A)
@@ -175,7 +176,7 @@ To run the demo, you can either
 	cd example
 	sh Readme
 
-or use the [GUI-based configuration](#gui-based-configuration-and-run-in-a-local-computer-(Fig.-1-A))
+or use the [GUI-based configuration](#gui-based-configuration-and-run-in-a-local-computer-fig-1-a)
 
 Then you can check the results by the [visualized viewer index.html](#local-gui-view) in the output folder by a webpage browser . 
 
