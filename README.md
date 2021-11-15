@@ -103,9 +103,9 @@ e. Compile the source code:
 # Typical Usages
 PMS provides a pipeline to automatically process the whole workflow.
 
-![usages.png](https://i.loli.net/2021/11/15/NAmpREan9TVKkzM.png)
+<center>![usages.png](https://i.loli.net/2021/11/15/oRb54vAh3QHCTSV.png)</center>
 
-<center>Fig. 1. Three typical usages of PMS for different scenarios and platforms. (A) Local GUI configure and run. (B) Local GUI configure and remote run. (C) Command configure and run (for both locally and remotely). </center>
+<p align="center">Fig. 1. Three typical usages of PMS for different scenarios and platforms. (A) Local GUI configure and run. (B) Local GUI configure and remote run. (C) Command configure and run (for both locally and remotely). </p>
 
 
 ## GUI-based configuration and run in a local computer (Fig. 1 A)
