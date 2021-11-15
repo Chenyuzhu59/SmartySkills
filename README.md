@@ -175,9 +175,9 @@ To run the demo, you can either
 	cd example
 	sh Readme
 
-or use the [GUI-based configuration](##gui-based-configuration-and-run-in-a-local-computer)
+or use the [GUI-based configuration](#gui-based-configuration-and-run-in-a-local-computer)
 
-Then you can check the results by the [visualized viewer index.html](####local-gui-view) in the output folder by a webpage browser . 
+Then you can check the results by the [visualized viewer index.html](#local-gui-view) in the output folder by a webpage browser . 
 
 
 # Tools in toolkit
