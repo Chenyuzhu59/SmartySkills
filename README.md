@@ -62,13 +62,13 @@ a. Extract the package:
 
 b. Install
 	
-	cd parallel-meta
+	cd parallel-meta-suite
 	source install.sh
 
 
 ##### Tips for the Automatic installation
 
-1. Please **“cd parallel-meta”** before run the automatic installer.
+1. Please **“cd parallel-meta-suite”** before run the automatic installer.
 2. The automatic installer only configures the environment variables to the default configuration files of “\~/.bashrc” or “\~/.bash_profile”. If you want to configure the environment variables to other configuration file please use the manual installation.
 3. If the automatic installer failed, PMS can still be installed manually by the following steps.
 
@@ -96,7 +96,7 @@ d. Install R packages
 
 e. Compile the source code:
 
-	cd parallel-meta
+	cd parallel-meta-suite
 	make
 
 
