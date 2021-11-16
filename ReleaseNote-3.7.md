@@ -5,16 +5,17 @@
 
 # I. Function update
 
-* Provoided an easy-to-use graphical interface for configuration and results interpretation, which is easy to startup for all-level users
-* Implemented by state-of-art algorithms such as selecting ASVs, HMS(new functional distance algorithm)
+* Added a graphical interface for configuration and results interpretation, which is easy for all-level users
+* Implementation of state-of-art algorithms such as selecting ASVs, HMS(new functional distance algorithm)
 * Updated and expanded reference databases
-* Implemented fully parallelization, which helps rapid profile thousands of samples
-* Visualized each of chart with elaborately designed schemes and colors
+* Optimized parallel computing
+* Updated the schemes designs and colors of charts
+* Enabled direct invocation of R scripts
 
 # II. Bug fixing
-	
-* Added $Parallel-Meta/Rscript/ to environment variable
+
+* Fixed bugs in automatic installer
 
 # III. Others
-	
-* We strongly recommend all users to update their old version Parallel-Meta to Parallel-Meta Suite 3.7
+
+* We strongly recommend all users to update to Parallel-Meta Suite 3.7
