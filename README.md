@@ -13,7 +13,7 @@
 - [Results interpretation](#results-interpretation)
 - [Contact Us](#contact)
 - [Supplementary](#supplementary)
-- [Citation](#citation)
+- [Citations](#citations)
 
 # Introduction
 
