@@ -182,8 +182,9 @@ To run the demo, you can either
 
 or use the [GUI-based configuration](#gui-based-configuration-and-run-in-a-local-computer-fig-1-a)
 
-Then you can check the results by the [visualized viewer index.html](#local-gui-view) in the output folder by a webpage browser . 
+Then you can check the results by the [visualized viewer index.html](#local-gui-view) in the output folder by a webpage browser. 
 
+We also provide a demo output for this example dataset. Click [here](http://bioinfo.single-cell.cn/Released_Software/parallel-meta/3.7/data/example.out.3.7.tar.gz) to download and check for details.
 
 # Tools in toolkit
 Tools can be directly used as Linux command line with parameters. To see all available parameters, please run the command with parameter ‘-h’, e.g.
@@ -299,3 +300,20 @@ Any problem please contact Parallel-Meta Suite development team
 
 	Chen Yuzhu	E-mail: chenyuzhu_study@163.com
 	Li Jian		E-mail: rendcloud@163.com
+	
+# Supplementary
+[Dataset 1](http://bioinfo.single-cell.cn/Released_Software/parallel-meta/3.7/data/dataset1.tar.gz) contains 894 16S-amplicon microbiome samples from a hospital's indoor environment before and after opening.[1]
+[Dataset 2](http://bioinfo.single-cell.cn/Released_Software/parallel-meta/3.7/data/dataset2.tar.gz) contains 2556 microbiomes sampled from multiple environmental conditions and studies. [2-9]
+[Dataset 3](http://bioinfo.single-cell.cn/Released_Software/parallel-meta/3.7/data/dataset2.tar.gz) contains 14000 microbiome samples from American Gut Project. [10]
+
+# Citations
+1. Lax, S., et al., Bacterial colonization and succession in a newly opened hospital. Sci Transl Med, 2017. 9(391).
+2. Wu, G.D., et al., Linking Long-Term Dietary Patterns with Gut Microbial Enterotypes. Science, 2011. 334(6052).
+3. A, D.L., et al., Host lifestyle affects human microbiota on daily timescales. Genome biology, 2014. 15(7).
+4. Koenig, J.E., et al., Succession of microbial consortia in the developing infant gut microbiome. Proceedings of the National Academy of Sciences of the United States of America, 2011. 108.
+5. Muegge, B.D., et al., Diet Drives Convergence in Gut Microbiome Functions Across Mammalian Phylogeny and Within Humans. Science, 2011. 332(6032).
+6. Peiffer, J.A., et al., Diversity and heritability of the maize rhizosphere microbiome under field conditions. Proceedings of the National Academy of Sciences of the United States of America, 2013. 110(16).
+7. Bulgarelli, D., et al., Structure and Function of the Bacterial Root Microbiota in Wild and Domesticated Barley. Cell Host & Microbe, 2015. 17(3).
+8. K, G.J., et al., Human genetics shape the gut microbiome. Cell, 2014. 159(4).
+9. Iratxe, Z., et al., The Soil Microbiome Influences Grapevine-Associated Microbiota. mBio, 2015. 6(2).
+10. Daniel, M., et al., American Gut: an Open Platform for Citizen Science Microbiome Research. mSystems, 2018. 3(3).
