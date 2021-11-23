@@ -304,7 +304,7 @@ Any problem please contact Parallel-Meta Suite development team
 	Li Jian		E-mail: rendcloud@163.com
 	
 # Supplementary
-[Dataset 1](http://bioinfo.single-cell.cn/Released_Software/parallel-meta/3.7/data/dataset1.tar.gz) contains 894 16S-amplicon microbiome samples from a hospital's indoor environment before and after opening.[1]
+[Dataset 1](http://bioinfo.single-cell.cn/Released_Software/parallel-meta/3.7/data/dataset1.tar.gz) contains 894 microbiome samples from a hospital's indoor environment before and after opening.[1]
 
 [Dataset 2](http://bioinfo.single-cell.cn/Released_Software/parallel-meta/3.7/data/dataset2.tar.gz) contains 2556 microbiomes sampled from multiple environmental conditions and studies. [2-9]
 
